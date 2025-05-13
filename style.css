@@ -1,0 +1,69 @@
+body {
+  font: normal 23px Arial;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+    color: #201d1d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+#num {
+    font-size: medium;
+    width: 100px;
+}
+
+#num:hover {
+    background-color: #282424;
+    color: rgb(0, 140, 255);
+}
+
+#gt {
+    font-size: medium;
+    color: #201d1d;
+}
+
+#gt:hover {
+    background-color: #201d1d;
+    color: rgb(0, 140, 255);
+
+}
+
+#seltab {
+    border-radius: 5px;
+}
+
+option {
+    text-align: center;
+    display: block;
+}
+
+#n {
+    text-align: left;
+    color: #201d1d;
+}
+
+select {
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    text-align: unset;
+}
