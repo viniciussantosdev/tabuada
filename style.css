@@ -4,13 +4,15 @@ body {
   background-color: #ffffff;
 }
 
-section {
-  background: white;
+@media (max-width:600px) { section {
+  background-color: rgb(255, 248, 248);
   border-radius: 10px;
   padding: 40px;
+  max-width: 90%;
   width: 350px;
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
 }
 
 h1 {
@@ -61,7 +63,8 @@ option {
 }
 
 select {
-  width: 100%;
+  width: 40%;
+  box-sizing: border-box;
   margin-top: 10px;
 }
 
